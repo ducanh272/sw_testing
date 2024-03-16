@@ -5,11 +5,15 @@ public class TicketPrice {
             return -1;
         }
 
+        int price;
+
         if (height >= 0.4 && height <= 0.9) {
-            return 0;
+            price = 0;
         } else if (height > 0.9 && height <= 1.4) {
-            return 145000;
-        } else return 170000;
+            price = 145000;
+        } else price = 170000;
+
+        return price;
     }
 
 }
