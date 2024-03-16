@@ -10,4 +10,4 @@
 /dataSources.local.xml
 
 **/DS_Store
-target/
+target
